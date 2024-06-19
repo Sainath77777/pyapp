@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome to python app!"
+    return "Welcome to python!"
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
